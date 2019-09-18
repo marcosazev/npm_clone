@@ -81,7 +81,7 @@ function renderQuestion(arr){
   let showQuestion = document.getElementById("demo");
 
   showQuestion.innerHTML = arr.pergunta;
-  let randomAnwser = document.querySelectorAll('button');
+  let randomAnwser = document.querySelectorAll('.anwsersHtml button');
   
   let randomNumber = Math.floor(Math.random() * 4);
 

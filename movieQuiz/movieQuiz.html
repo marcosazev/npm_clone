@@ -9,20 +9,23 @@
   <title>Document</title>
 </head>
 
-<body>
-    <div id="main">
-    <video autoplay>
-    <source src="sources/intro.mp4" type="video/mp4">
-    </video>
-    <h1 id="demo"></h1>
-    <div class="anwsersHtml">
+<div class="wrap">
+    <div class="bg-video">
+        <video autoplay src="sources/intro.mp4" type="video/mp4"></video> 
+      </div>
+      <div id="startGame"> 
+      <p>Test Your Knowledge about classic movies  but go fast: you have just 15 seconds to respond each question</p>
+      <button>start the game</button>
+      </div>
+      <div class="anwsersHtml">
+      <h1 id="demo"></h1>
       <button></button>
       <button></button>
       <button></button>
       <button></button>
       <button></button>
     </div>
-
+  </div>
 
   <p class="questions"></p>
   <script src="./movieQuiz.js"></script>
